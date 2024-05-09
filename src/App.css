@@ -1,0 +1,36 @@
+body{
+  background:#dcdcdc;
+  
+}
+.content{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
+  
+}
+img{
+  width: 250px;
+  height: 130px;
+  position: relative;
+  top:10px;
+  border-radius: 46px;
+  
+}
+.lista{
+  list-style: none;
+  color: #98a6ad !important;
+  font-size: 17px;
+  font-weight: 900;
+  
+}
+.card-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  background-color: #fff;
+  color: black;
+  padding: 10px;
+  border-radius: 6px;
+  
+}
